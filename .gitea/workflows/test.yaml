@@ -15,10 +15,9 @@ jobs:
     container:
       image: golang:1.27
     steps:
+      # JavaScript actions (like checkout) need node inside the job container
+      - name: Install Node
+        run: apt-get update && apt-get install -y --no-install-recommends nodejs
       - uses: actions/checkout@v3
-      - name: Set up Go
-        uses: actions/setup-go@v4
-        with:
-          go-version: 1.21
       - name: Run tests
         run: go test ./...
