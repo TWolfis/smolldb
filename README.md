@@ -141,3 +141,7 @@ Measured on an Apple M3 Pro (11 cores, 36 GB). Treat these as ballpark figures.
 The plateau comes from the single mutex in the request handler: more clients do
 not add throughput. Above about 64 concurrent clients on this machine, some
 connections hit the 1-second read deadline and were closed by the server.
+
+## License
+
+BSD 3-Clause. See [LICENSE](LICENSE).
