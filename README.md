@@ -1,7 +1,7 @@
 # smolldb
 
 [![Go Version](https://img.shields.io/badge/go-1.27.1-00ADD8?logo=go&logoColor=white)](go.mod)
-[![Test](https://gitea.thematrix.arpa/neo/smolldb/actions/workflows/test.yaml/badge.svg)](https://gitea.thematrix.arpa/neo/smolldb/actions?workflow=test.yaml)
+[![Test](https://github.com/TWolfis/smolldb/actions/workflows/test.yaml/badge.svg)](https://github.com/TWolfis/smolldb/actions/workflows/test.yaml)
 <!--
 Enable once the module has a public import path that pkg.go.dev can reach
 (change `module smolldb` in go.mod and replace <public/path> below):
